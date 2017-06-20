@@ -19,9 +19,3 @@ class Planet{
     return "Boom! " + this.name + " has exploded.";
   }
 }
-
-//   def explode()
-//     return "Boom! #{@name} has exploded."
-//   end
-
-// end

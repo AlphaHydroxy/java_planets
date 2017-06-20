@@ -7,12 +7,12 @@ public class PlanetTest{
 
   @Before
   public void before(){
-    planet = new Planet ("Kepler", 6371);
+    planet = new Planet ("Kepler22b", 6371);
   }
 
   @Test
   public void planetName(){
-    assertEquals("Kepler", planet.getName());
+    assertEquals("Kepler22b", planet.getName());
   }
 
   @Test
@@ -22,7 +22,7 @@ public class PlanetTest{
 
   @Test
   public void boom(){
-    assertEquals("Boom! Kepler has exploded.", planet.boom());
+    assertEquals("Boom! Kepler22b has exploded.", planet.boom());
   }
 }
 
